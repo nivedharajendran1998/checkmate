@@ -5,7 +5,7 @@ import TaskCard from "./TaskCard";
 export default function TaskColumn(props) {
   return (
     <div className="column">
-      <h3 className="column-heading">{props.name}</h3>
+      <h2 className="column-heading">{props.name}</h2>
       <TaskCard />
     </div>
   );
