@@ -26,3 +26,30 @@
   font-size: 20px;
   font-weight: 700;
 }
+
+.column {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+}
+
+.column-heading {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  margin: 15px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #eb45c2;
+  width: 0;
+  transition: width 0.3s;
+}
